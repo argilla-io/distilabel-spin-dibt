@@ -1,4 +1,16 @@
 # distilabel-spin-dibt
+
+<div>
+    <img src="https://cdn-uploads.huggingface.co/production/uploads/60420dccc15e823a685f2b03/aEzpD6gvn0xOrN2rNzpZI.webp">
+</div>
+
+
+<p align="center">
+  <a href="https://github.com/argilla-io/distilabel">
+    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="200" height="32"/>
+  </a>
+</p>
+
 SPIN experiments on the DIBT 10k ranked prompts.
 
 This repository contains the instructions to run [SPIN](https://github.com/uclaml/SPIN) on a subset of the [DIBT/10k_prompts_ranked](https://huggingface.co/datasets/DIBT/10k_prompts_ranked) dataset: Those that have `avg_rating>=4` and `num_response>1`, making a total of 1832 records (which will then be splitted in 1648 for training and 184 for testing).
@@ -6,6 +18,9 @@ This repository contains the instructions to run [SPIN](https://github.com/uclam
 It contains the references to all the scripts to generate the datasets, the configuration files used for the training process and the setup used to run the model. The dataset generation was done using [distilabel==0.6.0](https://github.com/argilla-io/distilabel).
 
 SPIN needs a specific format for the data to do the training, where the "real" data is the reference for the model to improve. As the dataset was made of prompts, we decided to generate these responses using [`mistral-large`](https://docs.mistral.ai/platform/endpoints/). The different iterations of the "generated" datasets were created using `distilabel` with `vllm`, using 2 A100 GPUs (just for speed, it should work with less computer power, just need to update the `--cuda-devices` and `--batch-size` arguments accordingly).
+
+## Contribute to the DIBT prompt collective
+This work shows the huge benefit of collecting high-quality prompts for LLM fine-tuning. If you want to support the OSS community with larger datasets, contribute to the [Prompt Collective initiative](https://huggingface.co/spaces/DIBT/prompt-collective-dashboard).
 
 ## Prepare the data
 
