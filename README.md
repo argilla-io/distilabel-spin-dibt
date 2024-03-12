@@ -1,15 +1,16 @@
 # distilabel-spin-dibt
 
 <div>
-    <img src="https://cdn-uploads.huggingface.co/production/uploads/60420dccc15e823a685f2b03/aEzpD6gvn0xOrN2rNzpZI.webp">
+    <img src="https://cdn-uploads.huggingface.co/production/uploads/60420dccc15e823a685f2b03/aEzpD6gvn0xOrN2rNzpZI.webp"  width="50%" >
 </div>
 
 
 <p align="center">
   <a href="https://github.com/argilla-io/distilabel">
-    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="100" />
+    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="200" height="32"/>
   </a>
 </p>
+
 
 SPIN experiments on the DIBT 10k ranked prompts.
 
