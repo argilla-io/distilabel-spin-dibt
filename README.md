@@ -11,13 +11,6 @@
 </div>
 
 
-<p align="center">
-  <a href="https://github.com/argilla-io/distilabel">
-    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="200" height="32"/>
-  </a>
-</p>
-
-
 SPIN experiments on the DIBT 10k ranked prompts.
 
 This repository contains the instructions to run [SPIN](https://github.com/uclaml/SPIN) on a subset of the [DIBT/10k_prompts_ranked](https://huggingface.co/datasets/DIBT/10k_prompts_ranked) dataset: Those that have `avg_rating>=4` and `num_response>1`, making a total of 1832 records (which will then be splitted in 1648 for training and 184 for testing).
