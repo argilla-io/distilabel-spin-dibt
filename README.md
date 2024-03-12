@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/argilla-io/distilabel">
-    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="200" height="32"/>
+    <img src="https://raw.githubusercontent.com/argilla-io/distilabel/main/docs/assets/distilabel-badge-light.png" alt="Built with Distilabel" width="100" />
   </a>
 </p>
 
